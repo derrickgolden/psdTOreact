@@ -13,6 +13,7 @@ export default {
         'topdownLine': "url('../src/assets/shapes/topDownLine.svg')",
         'signUpShape': "url('../src/assets/shapes/signUpShape.svg')",
         'logoShape': "url('../src/assets/shapes/logoShape.svg')",
+        'polygon': "url('../src/assets/shapes/polygon.png')",
       },
       gridTemplateRows: {
        '0': '0fr',

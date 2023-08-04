@@ -16,25 +16,25 @@ function App() {
       <div className=' bg-topdownLine -z-0 min-h-screen 
          bg-contain bg-no-repeat'>
       <div className='flex flex-row z-20 gap-4 justify-between'>
-        <div className='w-[24%] h-20 sm:h-auto sm:w-[16%] md:w-[14%] z-10 justify-start 
-        bg-logoShape bg-cover bg-center bg-no-repeat '>
+        <div className='w-[24%] h-20 sm:h-auto sm:w-[16%] md:w-[14%] z-10  
+        bg-logoShape bg-cover bg-center bg-no-repeat justify-start'>
           <img src={logo} alt="logo" 
           className='overflow-hidden object-contain'/>
         </div>
         <NavBar />
-        <div className='w-[24%] h-20 sm:h-auto sm:w-[16%] md:w-[14%]  uppercase relative 
-        bg-signUpShape bg-cover bg-center bg-no-repeat'>
+        <div className='w-[24%] h-20 sm:h-auto sm:w-[16%] md:w-[14%]  
+        bg-signUpShape bg-cover bg-center bg-no-repeat uppercase relative '>
           <button className='absolute top-5 text-white left-0 right-0  
           text-lg md:text-2xl font-normal hover:font-bold text-
           cursor-pointer uppercase'>sign up</button>
         </div>
       </div>
-      <div className='flex flex-col-reverse md:flex-row gap-20 md:gap-4 pb-8 md:pb-1
-      place-items-start border border-red-600'> 
+      <div className='flex flex-col-reverse md:flex-row gap-20 md:gap-4 
+      pb-8 md:pb-1 place-items-start '> 
         <div className='w-full md:w-1/2 flex justify-center items-center'>
           <Mockup/>
         </div>
-        <div className='w-full md:w-1/2 lg:w-5/12 flex justify-center items-center '>
+        <div className='w-full md:w-1/2 flex justify-around items-center '>
           <Hero />
         </div>
       </div>

@@ -5,6 +5,7 @@ import logoShape from "./logoShape.svg"
 import socialShape from "./socialShape.svg"
 import mockupBackground from "./textBg.svg"
 import logo from "./psd.png"
+import sun from "./sun.png"
 
 export{
     topDownLine,
@@ -13,5 +14,6 @@ export{
     socialShape,
     mockupBackground,
     logo,
+    sun
 }
 
